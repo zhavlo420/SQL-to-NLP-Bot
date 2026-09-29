@@ -1,0 +1,44 @@
+[
+  {
+    "term": "revenue",
+    "aliases": ["sales", "sales amount", "order value"],
+    "definition": "Revenue is the sum of orders.total_amount.",
+    "tables": ["orders"],
+    "columns": ["total_amount"]
+  },
+  {
+    "term": "city",
+    "aliases": ["location", "customer location"],
+    "definition": "City means the customer city on the customers table.",
+    "tables": ["customers"],
+    "columns": ["city"]
+  },
+  {
+    "term": "customer count",
+    "aliases": ["number of customers", "how many customers", "customer total"],
+    "definition": "Customer count is the number of rows in customers.",
+    "tables": ["customers"],
+    "columns": ["id"]
+  },
+  {
+    "term": "product",
+    "aliases": ["products", "item", "items"],
+    "definition": "A product is an item listed in products.",
+    "tables": ["products"],
+    "columns": ["name", "category_id"]
+  },
+  {
+    "term": "order count",
+    "aliases": ["number of orders", "orders count"],
+    "definition": "Order count is the number of rows in orders.",
+    "tables": ["orders"],
+    "columns": ["id"]
+  },
+  {
+    "term": "units sold",
+    "aliases": ["items sold", "quantity sold"],
+    "definition": "Units sold is the sum of orders.quantity.",
+    "tables": ["orders"],
+    "columns": ["quantity"]
+  }
+]

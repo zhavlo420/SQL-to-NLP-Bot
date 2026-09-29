@@ -1,0 +1,4 @@
+[
+  {"question":"How many customers do we have?","expected_contains":["customer_count"]},
+  {"question":"What are the top 5 products by revenue?","expected_contains":["product","revenue"]}
+]
